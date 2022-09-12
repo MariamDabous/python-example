@@ -58,7 +58,7 @@ def a():
 print(a())
 pass
 
-##10
+##ans=10
 
 #9
 def a(b,c):
@@ -139,9 +139,9 @@ def b():
     print(3)
     return 5
 y = a()
-# print(y)
+#print(y)
 
-#1 3 5 10
+##ans=1 3 5 10
 
 
 
