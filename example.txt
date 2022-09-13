@@ -1,0 +1,14 @@
+-pip list: it will give me all backages we have in python
+
+-deactivate (This will deactivate your virtual environment)
+
+-pip3 list : it will give me all backages we have in python3 (it insures that the model will installed in python3)
+
+-pip install Django==2.2.4: it installs Django, which is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+
+-pip freeze :it tells you which modules you've installed with pip install and the versions of these modules that you are currently have installed on your computer.
+
+-pip uninstall Django: it uninstall Django
+
+-pip show Django: it shows Dijanjo
+
