@@ -88,13 +88,11 @@ H=ultimate_analysis([37,2,1,-9])
 print(H)
 
 def reverse_list(list):
-    newlist=[]
-    for a in range(len(list)-1,-1,-1):
-        newlist.append(list[a])
-    print(newlist)
-    return(newlist)
+    for p in range(0,int(len(list)/2),1):
+        temp= list[p]
+        list[p]=list[len(list)-1-p]
+        list[len(list)-1-p]=temp
+    return(list)
 
-reverse_list([37,2,1,-9])
-
-    
-    
+k=reverse_list([37,2,1,-9,10,12])
+print(k)
